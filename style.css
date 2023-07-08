@@ -90,3 +90,25 @@ div {
   left: 750px;
   right: 80px;
 }
+.cod-link {
+    text-decoration: none;
+    color: lime;
+    animation: blinker 2s linear infinite;
+  }
+  
+  .cod-link:hover {
+    color: white;
+    transform: translate(1.3);
+    border-bottom: 1px solid white;
+    
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.lt-description {
+    padding-block: 10px;
+}
