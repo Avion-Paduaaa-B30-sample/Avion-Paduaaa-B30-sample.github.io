@@ -92,6 +92,8 @@ div {
 }
 .cod-link {
     text-decoration: none;
+    margin-bottom: 1em;
+    padding-bottom: 20px;
     color: lime;
     animation: blinker 2s linear infinite;
   }
@@ -112,3 +114,9 @@ div {
 .lt-description {
     padding-block: 10px;
 }
+
+section {
+    position: relative;
+    margin-bottom: 20px;
+    top: 500px;
+  }
